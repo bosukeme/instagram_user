@@ -11,7 +11,7 @@ from pymongo import MongoClient
 #from webdriver_manager.chrome import ChromeDriverManager
 
 import time
-MONGO_URL="mongodb://Bloverse:uaQTRSp6d9czpcCg@64.227.12.212:27017/social_profiling?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false"
+MONGO_URL=""
 
 client= MongoClient(MONGO_URL)
 db = client.instagram_user
